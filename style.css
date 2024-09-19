@@ -3,4 +3,98 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    background-color: black;
+    font-size: 12px;
+}
+table {
+    background-color: black;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    border-style: hidden;
+}
+table td, table th {
+    border: 1px solid rgb(32, 32, 32);
+}
+td {
+    height: 46px;
+}
+th {
+    color: #848484;
+    height: 40px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.numbers {
+    color: rgb(132, 132, 132);
+    background-color: rgb(71, 71, 71);
+    border-color: rgb(34, 34, 34);
+    width: 25px;
+    height: 46px;
+}
+.name {
+    background-color: rgb(34, 34, 34);
+    color: #848484;
+    font-size: 12px;
+    border-right: hidden;
+    border-color: #424242;
+    text-align: left;
+    padding: 0 8px;
+}
+.wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+img {
+    margin-right: 7px;
+}
+.name tr {
+    width: 110px;
+}
+.row {
+    width: 80px;
+}
+.points {
+    background-color: #ae0018;
+    color: white;
+    border-color: black;
+    width: 50px;
+    border-left: hidden;
+}
+.corner_top_left {
+    border-top-left-radius: 10px;
+}
+.corner_bottom_left {
+    border-bottom-left-radius: 10px;
+}
+.corner_top_right {
+    border-top-right-radius: 10px;
+}
+.corner_bottom_right {
+    border-bottom-right-radius: 10px;
+}
+.zero {
+    color: #424242;
+}
+.red {
+    border-bottom: 2px solid rgb(165, 42, 42);
+}
+.yellow {
+    border-bottom: 2px solid rgb(255, 215, 0);
+}
+.white {
+    border-bottom: 2px solid rgb(192, 192, 192);
+}
+h1 {
+    color: white;
+}
+.hide {
+    border-bottom: hidden;
 }
